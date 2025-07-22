@@ -48,8 +48,6 @@ m = folium.Map(
 os.makedirs('images', exist_ok=True)
 # Directory for processed icons
 os.makedirs('images/pins', exist_ok=True)
-# Ensure www directory exists
-os.makedirs('www', exist_ok=True)
 
 def create_placeholder_image(path, name):
     img = Image.new('RGB', (30, 30), color=(200, 200, 200))
@@ -111,5 +109,5 @@ for member in family:
 # Add layer control to toggle family members
 folium.LayerControl(collapsed=False).add_to(m)
 
-m.save('www/output_map.html')
-print('Map saved to www/output_map.html') 
+m.save('output_map.html')
+print('Map saved to output_map.html') 
