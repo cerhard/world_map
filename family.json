@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Carl",
+    "image": "images/carl.jpg",
+    "places": [
+      {"name": "Chennai, India"},
+      {"name": "Galway, Ireland"},
+      {"name": "Dublin, Ireland"},
+      {"name": "London, UK"},
+      {"name": "New York, USA"},
+      {"name": "San Francisco, USA"},
+      {"name": "San Diego, USA"},
+      {"name": "College Station, TX, USA"},
+      {"name": "Duluth, GA, USA"},
+      {"name": "Boston, MA, USA"},
+      {"name": "Phoenix, AZ, USA"},
+      {"name": "Chicago, IL, USA"},
+      {"name": "Orlando, FL, USA"},
+      {"name": "Sedona, AZ, USA"},
+      {"name": "Philadelphia, PA, USA"},
+      {"name": "Windber, PA, USA"},
+      {"name": "Livonia, MI, USA"},
+      {"name": "Krakow, Poland"},
+      {"name": "Nassau, Bahamas"},
+      {"name": "Carter Caves, KY, USA"},
+      {"name": "Cumberland Falls, KY, USA"}
+    ]
+  },
+  {
+    "name": "Julia",
+    "image": "images/julia.jpg",
+    "places": [
+      {"name": "New York", "lat": 40.7128, "lon": -74.0060, "url": "https://example.com/bob-nyc"},
+      {"name": "London", "lat": 51.5074, "lon": -0.1278, "url": "https://example.com/bob-london"}
+    ]
+  }
+] 
