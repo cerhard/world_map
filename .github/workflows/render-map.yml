@@ -25,8 +25,8 @@ jobs:
       - name: Run map renderer
         run: |
           python main.py
-      - name: Upload www/output_map.html as artifact
+      - name: Upload output_map.html as artifact
         uses: actions/upload-artifact@v3
         with:
           name: output_map
-          path: www/output_map.html 
+          path: output_map.html 
