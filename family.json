@@ -5,16 +5,16 @@
     "places": [
       {"name": "Chennai, India", "url": "https://www.amazon.com/photos/album/ZRtH9BebSAaXBsUXc_b7sw"},
       {"name": "Galway, Ireland"},
-      {"name": "Dublin, Ireland"},
-      {"name": "London, UK"},
-      {"name": "New York, USA"},
-      {"name": "San Francisco, USA"},
+      {"name": "Dublin, Ireland", "url": "https://www.amazon.com/photos/album/B3WTmrqHRwyPSX-0RsZy2w"},
+      {"name": "London, UK", "url": "https://www.amazon.com/photos/album/QIu4tmgxRhywcc_FNHv7vw"},
+      {"name": "New York, USA", "url": "https://www.amazon.com/photos/album/9W0AqBcCQFCABeEAW06deg"},
+      {"name": "San Francisco, USA", "url": "https://www.amazon.com/photos/album/J-h6dZVVReSLMNemyspQJA"},
       {"name": "San Diego, USA"},
       {"name": "College Station, TX, USA"},
       {"name": "Duluth, GA, USA"},
       {"name": "Boston, MA, USA"},
       {"name": "Phoenix, AZ, USA"},
-      {"name": "Chicago, IL, USA"},
+      {"name": "Chicago, IL, USA", "url": "https://www.amazon.com/photos/album/8lNTelByRmG2VEOnrATe0w"},
       {"name": "Orlando, FL, USA"},
       {"name": "Sedona, AZ, USA"}
     ]
