@@ -3,7 +3,7 @@
     "name": "Carl",
     "image": "images/carl.jpg",
     "places": [
-      {"name": "Chennai, India"},
+      {"name": "Chennai, India", "url": "https://www.amazon.com/photos/album/ZRtH9BebSAaXBsUXc_b7sw"},
       {"name": "Galway, Ireland"},
       {"name": "Dublin, Ireland"},
       {"name": "London, UK"},
