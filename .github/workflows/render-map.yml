@@ -26,7 +26,7 @@ jobs:
         run: |
           python main.py
       - name: Upload output_map.html as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: output_map
           path: output_map.html 
