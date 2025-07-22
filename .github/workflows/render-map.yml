@@ -25,8 +25,13 @@ jobs:
       - name: Run map renderer
         run: |
           python main.py
-      - name: Upload output_map.html as artifact
-        uses: actions/upload-artifact@v4
+      - name: Commit output_map.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output_map.html
+          git commit -m "Auto-update output_map.html [skip ci]" || echo "No changes to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
         with:
-          name: output_map
-          path: output_map.html 
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
